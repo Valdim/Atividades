@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Dever {
+    public static void main(String[]args){
+        Scanner tcl = new Scanner(System.in);
+        System.out.println("Digite a primeira parcela");
+        int a = tcl.nextInt();
+        System.out.println("Digite a segunda parcela");
+        int b = tcl.nextInt();
+        System.out.println("A soma é igual a "+ (a + b));
+    }
+}
