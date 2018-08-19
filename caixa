@@ -1,0 +1,41 @@
+import java.util.Scanner;
+public class Caixa {
+    public static void main(String[]args){
+    Scanner tcl = new Scanner(System.in);
+    System.out.println("Escolha uma operação");
+    System.out.println("1 - Depositar");
+    System.out.println("2 - Sacar");
+    System.out.println("3 - Ver saldo");
+    System.out.println("4 - Sair");
+    
+    int aux = tcl.nextInt();
+    boolean fim = false;
+    double sd = 0;
+    if(aux == 4){
+        fim = true;
+        
+    }
+    while(fim == false){
+        switch(aux){
+            case 1:
+            System.out.println("Digite o valor do depósito");
+            double dp = tcl.nextDouble();
+            sd = sd + dp;
+            break;
+            
+        case 2:
+            System.out.println("Digite o valor do saque");
+            double sq = tcl.nextDouble();
+            sd = sd - sq;
+            break;
+            
+        case 3:
+            System.out.println("O seu saldo é de " + sd);
+            break;
+    }
+        if(fim == true){
+            System.out.println("Obrigado por utilizar nossos serviços!");
+        }
+    }
+    }
+}
