@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class Ene {
+    public static void main(String[]args){
+        Scanner tcl = new Scanner(System.in);
+        System.out.println("Digite o tamanho do vetor");
+        int vet[] = new int[tcl.nextInt()];
+        System.out.println("Digite os valores do vetor");
+        for(int i = 0;i < vet.length;i++){
+            vet[i] = tcl.nextInt();
+        }
+        System.out.println("Pressione 1 para ordem crescente e 0 para ordem decrescente");
+        int a = tcl.nextInt();
+        int aux = 0;
+        switch(a){
+            case 0:
+                for(int q = 0;q < vet.length;q++){
+                  for(int e = 0;e < vet.length;e++){
+                      if(vet[q] < vet[e]){
+                          aux = vet[q];
+                          vet[q] = vet[e];
+                          vet[e] = aux;
+                      }
+                  }  
+                }break;
+            case 1:
+                for(int r = 0;r < vet.length;r++){
+                  for(int u = 0;u < vet.length;u++){
+                      if(vet[r] > vet[u]){
+                          aux = vet[r];
+                          vet[r] = vet[u];
+                          vet[u] = aux;    
+        }break;  
+    }
+  }      
+}
+        for(int p = 0;p < vet.length;p++){
+            System.out.println(vet[p]);
+}}}        
