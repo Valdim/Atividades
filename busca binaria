@@ -1,0 +1,43 @@
+import java.util.Scanner;
+import java.util.Random;
+public class Ene {
+    public static void main(String[]args){
+        Scanner tcl = new Scanner(System.in);
+        System.out.println("Digite o valor que deseja encontrar");
+        Random irineu = new Random();
+        int r = tcl.nextInt();   
+        int vet[] = new int[100];
+        int aux = 0;
+        
+        for(int i = 0;i < vet.length;i++){
+            vet[i] = irineu.nextInt(100);
+        }
+        for(int i = 0;i < vet.length;i++){
+            for(int j = 0;j < vet.length;j++){
+                if(vet[i] < vet[j]){
+                    aux = vet[i];
+                    vet[i] = vet[j];
+                    vet[j] = aux;
+                }
+            }
+        }
+        
+        while(meio != r){
+            int inicio = 0;
+        int fim = vet.length;
+        int meio = (inicio + fim)/2;
+        
+            if(r == vet[meio]){
+            System.out.println("Encontrado no vetor");
+        }else if(r < meio){
+            fim = meio;
+        }else if(r > meio){
+            inicio = meio;
+        }else{
+            System.out.println("Não existe no vetor");
+        }
+        }
+        }
+        
+    }
+    
