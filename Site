@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto Bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bis.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="bootstrap-4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+	<!--Parte superior ao nav-->
+
+	<div class="container-fluid">
+		<header>
+			<div class="row col-md-12">
+				<div class="col-md-2 w-100 w-sm- col-12 ml-sm-0 ml-3 mt-4">
+					<img src="imagens/log.png" class="w-100">
+				</div>
+				<div class="col-md-4 social d-none d-sm-block offset-6">
+					<ul>
+						<li><i class="fa fa-facebook-square fa-3x " aria-hidden="true"></i></li>
+						<li><i class="fa fa-tumblr-square fa-3x iconsocial" aria-hidden="true"></i></li>
+						<li><i class="fa fa-twitter-square fa-3x iconsocial" aria-hidden="true"></i></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+	
+
+
+	<!--Navbar-->
+
+
+	<div class="container col-md-12">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <a class="navbar-brand" href="#">Navbar</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ 			   <span class="navbar-toggler-icon"></span>
+			  </button>
+
+ 	 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+ 	  				 <ul class="navbar-nav mr-auto">
+    						  <li class="nav-item active">
+     		   					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+     						 </li>
+    						  <li class="nav-item">
+    		 					   <a class="nav-link" href="#">Link</a>
+    		 				 </li>
+    		 				 <li class="nav-item dropdown">
+    		   					 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    							Dropdown
+    		  					  </a>
+     		 		  				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+       		   						<a class="dropdown-item" href="#">Action</a>
+       		   						<a class="dropdown-item" href="#">Another action</a>
+       		  							 <div class="dropdown-divider"></div>
+        								  <a class="dropdown-item" href="#">Something else here</a>
+        								</div>
+     						 </li>
+     						 <li class="nav-item">
+    		 					   <a class="nav-link disabled" href="#">Disabled</a>
+    		 				 </li>
+   					 </ul>
+  		 			 <form class="form-inline my-2 my-lg-0">
+  						    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  		  				  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  		 			 </form>
+  				</div>
+		</nav>
+	</div>
+
+
+
+			<!--Carousel-->
+
+
+
+	<div class="col-md-12 mb-5 container">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  			<ol class="carousel-indicators">
+    			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+   				 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  			</ol>
+  			<div class="carousel-inner">
+   				 <div class="carousel-item active">
+   				 	<figure class="foto">
+   				 		<img class="d-block w-100" src="imagens/foto1.jpg" alt="First slide">
+   				 		<figcaption>
+   				 			Imagem
+   				 		</figcaption>
+   				 	</figure>
+    			</div>
+    			<div class="carousel-item">
+     				 <figure class="foto">
+   				 		<img class="d-block w-100" src="imagens/foto2.jpg" alt="Second slide">
+   				 		<figcaption>
+   				 			Imagem
+   				 		</figcaption>
+   				 	</figure>
+    			</div>
+    			<div class="carousel-item">
+    				<figure class="foto">
+   				 		<img class="d-block w-100" src="imagens/foto3.jpg" alt="Third slide">
+   				 		<figcaption>
+   				 			<span>Imagem</span>
+   				 		</figcaption>
+   				 	</figure>
+    			</div>
+
+  			</div>
+  			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+   			 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   			 <span class="sr-only">Previous</span>
+  			</a>
+  			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+   			 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Next</span>
+  			</a>
+		</div>	
+	</div>
+
+
+
+
+	<!--Imagem com Jumbotron-->
+
+
+
+	<div class="col-md-12 py-5 container">
+    <div class="row">
+		<div class="col-md-7 h-100">
+			
+			<img src="imagens/fotref.jpg">
+			
+		</div>
+		<div class="col-md-5 mt-3 mt-sm-0">
+			<div class="jumbotron h-100">
+  				<div id="accordion h-100">
+            <div class="col-md-5 mx-auto">
+            <span class="display-4">Seila</span>
+            </div>
+            <div class="my-5">
+  						<div class="card">
+   							<div class="card-header">
+     							 <a class="card-link" data-toggle="collapse" href="#collapseOne">
+        							Opção 1
+     							 </a>
+    						</div>
+    						<div id="collapseOne" class="collapse" data-parent="#accordion">
+     							<div class="card-body">
+       								 Lorem ipsum..
+      							</div>
+    						</div>
+  						</div>
+
+  						<div class="card">
+   					 		<div class="card-header">
+      							<a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+       								 Opção 2
+     							</a>
+   							</div>
+    						<div id="collapseTwo" class="collapse" data-parent="#accordion">
+      							<div class="card-body">
+       								 Lorem ipsum..
+      							</div>
+    						</div>
+  						</div>
+
+ 				 		<div class="card">
+    						<div class="card-header">
+     							<a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+       								 Opção 3
+      							</a>
+    						</div>
+   					 		<div id="collapseThree" class="collapse" data-parent="#accordion">
+     							<div class="card-body">
+        							Lorem ipsum..
+      							</div>
+    						</div>
+  						</div>
+            </div>
+				</div>
+			</div>
+		</div>
+  </div>
+	</div>
+
+
+
+
+
+
+	<!--Texto aleatorio com imagem aleatoria-->
+	<div class="col-md-12 my-5">
+    <div class="row">
+			<div class="col-md-4 offset-1">
+				<p>Bem eu não faço a menor ideia só queria fazer algo que parecesse bom, o que não deu mas fica aqui pelo menos a ideia pra caso eu precise depois.Textorepetivivo Textorepetivivo Textorepetivivo Textorepetivivo Textorepetivivo Textorepetivivo Textorepetivivo Textorepetivivo Textorepetivivo Textorepetivivo </p>
+			</div>
+			<div class="col-md-6">
+				<img src="imagens/morro.jpg">
+			</div>
+    </div>
+	</div>
+
+
+
+	<!--Cards com imagens e mensagens no modal-->
+
+
+	<div class="col-md-12 my-5">
+    <div class="row">
+		<div class="col-md-10 mx-auto my-5">
+				<div class="card-deck">
+  					<div class="card">
+  						<img class="card-img-top idc" src="imagens/med.jpg" alt="Card image">
+  						<div class="card-body">
+    						<h4 class="card-title">Cuidam</h4>
+   							<p class="card-text">Mais informação abaixo.</p>
+  						</div>
+  					</div>
+  				<div class="card">
+  						<img class="card-img-top idc" src="imagens/prof.jpg" alt="Card image">  					
+  						<div class="card-body">
+   							<h4 class="card-title">Constroem</h4>
+   							<p class="card-text">Mais informação abaixo.</p>
+  						</div>
+  				</div>
+  				<div class="card">
+  						<img class="card-img-top idc" src="imagens/pal.jpg" alt="Card image">
+ 						<div class="card-body">
+   							<h4 class="card-title">Alegram</h4>
+   							<p class="card-text">Mais informação abaixo.</p>
+  						</div>
+  				</div>
+  				<div class="card">
+  					  	<img class="card-img-top idc" src="imagens/proerd.jpg" alt="Card image">
+  						<div class="card-body">
+   							<h4 class="card-title">Evitam</h4>
+    						<p class="card-text">Mais informação abaixo.</p>
+  						</div>
+  				</div> 
+			</div>
+		</div>
+  </div>
+	</div>
+
+
+
+
+
+	<!--Formulário-->
+
+
+
+	<div class="col-md-12 my-5">
+    <div class="row">
+		<div class="col-md-12">
+			<form action="/action_page.php">
+				<div class="form-group w-75 mx-auto">
+  					<label for="usr">Name:</label>
+ 					<input type="text" class="form-control" id="usr">
+				</div>
+  				<div class="form-group w-75 mx-auto">
+   					 <label for="email">Email address:</label>
+   					 <input type="email" class="form-control" id="email">
+  				</div>
+  				<div class="form-group w-75 mx-auto">
+   					 <label for="pwd">Password:</label>
+   					 <input type="password" class="form-control" id="pwd">
+  				</div>
+  				<div class="form-group w-75 mx-auto">
+      				<label for="sel1">Selecione seu estado:</label>
+     				<select class="form-control" id="sel1" name="sellist1">
+     					<option></option>
+       					<option>AL</option>
+        				<option>AP</option>
+        				<option>AM</option>
+      					<option>BA</option>
+      					<option>CE</option>
+        				<option>DF</option>
+        				<option>ES</option>
+      					<option>GO</option>
+      					<option>MA</option>
+        				<option>MT</option>
+        				<option>MS</option>
+      					<option>MG</option>
+      					<option>PA</option>
+        				<option>PB</option>
+        				<option>PR</option>
+      					<option>PE</option>
+      					<option>PI</option>
+        				<option>RJ</option>
+        				<option>RN</option>
+      					<option>RS</option>
+      					<option>RO</option>
+        				<option>RR</option>
+        				<option>SC</option>
+      					<option>SP</option>
+      					<option>SE</option>
+        				<option>TO</option>
+      				</select>
+      			</div>
+
+
+
+      			<div class="col-md-12">
+              <div class="row">
+              <div class="col-md-4 w-25 mx-auto ml-2">
+  					<div class="custom-control custom-radio custom-control-inline">
+    					 <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+   						 <label class="custom-control-label" for="customRadio">Masculino</label>
+ 				 	  </div>
+ 				 	  <div class="custom-control custom-radio custom-control-inline">
+   						 <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+   						 <label class="custom-control-label" for="customRadio2">Feminino</label>
+ 					  </div>
+ 				   	<div class="custom-control custom-radio custom-control-inline">
+   						 <input type="radio" class="custom-control-input" id="customRadio3" name="example" value="customEx">
+   						 <label class="custom-control-label" for="customRadio3">Outro(a)</label>
+ 				   	</div>
+            <div class="custom-control custom-radio custom-control-inline">
+               <input type="radio" class="custom-control-input" id="customRadio4" name="example" value="customEx">
+               <label class="custom-control-label" for="customRadio4">Não deseja</label>
+            </div>
+            </div>
+          </div>
+ 				    </div>
+
+
+ 				<div class="offset-2 offset-sm-5 my-4">
+ 				 	<div class="custom-control custom-checkbox">
+    					<input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+   						<label class="custom-control-label" for="customCheck">Lembre-se de mim</label>
+  					</div>
+  				</div>
+  				<div class="offset-2 offset-sm-5">
+ 					<button type="submit" class="btn btn-primary">Submit</button>
+ 				</div>
+			</form>
+		</div>
+	</div>
+	
+
+	</div>
+
+  <div class="row">
+  <div class="col-md-12 py-5 bg-dark">
+    <div class="row">
+    <div class="col-md-2 offset-0 offset-sm-1 w-75 w-sm-100">
+      <ul class="ur">
+        <li class="tr border-bottom mb-3">Contatinhos</li>
+        <li>Hummmm</li>
+        <li>Ulala</li>
+        <li>( ͡° ͜ʖ ͡°)</li>
+        <li>Tchalala</li>
+        <li>Dindindong</li>
+      </ul>
+    </div>
+    <div class="col-md-2 w-sm-100 w-75">
+      <ul class="ur">
+        <li class="tr border-bottom  mb-3">Nomes</li>
+        <li>Não lembro</li>
+        <li>Finalmente chuva</li>
+        <li>aa</li>
+        <li>Waka Waka</li>
+        <li>É duma música</li>
+      </ul>
+    </div>
+    <div class="col-md-4 mx-auto">
+      <iframe id="mapa"src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d509283.2802291674!2d-39.9121652442114!3d-4.2638193696517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scaninde+cemiterio!5e0!3m2!1spt-BR!2sbr!4v1539948533987" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe> 
+    </div><!--450 e 300-->
+  </div>
+  </div>	
+  </div>	
+</body>
+</html>
